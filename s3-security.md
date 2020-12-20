@@ -32,5 +32,5 @@ CloudTrail on S3
 
 Amazon S3 is integrated with AWS CloudTrail, a service that provides a record of actions taken by a user, role, or an AWS service in Amazon S3. CloudTrail captures a subset of API calls for Amazon S3 as events, including calls from the Amazon S3 console and from code calls to the Amazon S3 APIs. If you create a trail, you can enable continuous delivery of CloudTrail events to an Amazon S3 bucket, including events for Amazon S3. If you don't configure a trail, you can still view the most recent events in the CloudTrail console in **Event history – from the AWS Website**
 
-https://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html99
+https://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html
 

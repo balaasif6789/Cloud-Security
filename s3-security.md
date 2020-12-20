@@ -1,30 +1,24 @@
 # S3 Security
 
-S3
-
-è Bucket Access  to public
+## Bucket Access  to public
 
 By default access is not public
 
-![](file:///C:\Users\bounty\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![](.gitbook/assets/image%20%28111%29.png)
 
 Making bucket public
 
-![](file:///C:\Users\bounty\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg)
-
-![](file:///C:\Users\bounty\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg)
+![](.gitbook/assets/image%20%28113%29.png)
 
  Make the individual objects public
 
-![](file:///C:\Users\bounty\AppData\Local\Temp\msohtmlclip1\01\clip_image007.jpg)
+![](.gitbook/assets/image%20%28114%29.png)
 
 Enable Server Side Encryption for S3
 
-![](file:///C:\Users\bounty\AppData\Local\Temp\msohtmlclip1\01\clip_image009.jpg)
-
 One SSE is enabled, only added objects  post the activation will be automatically encrypted, objects added before will have to be encrypted manually.
 
-![](file:///C:\Users\bounty\AppData\Local\Temp\msohtmlclip1\01\clip_image011.jpg)
+![](.gitbook/assets/image%20%28115%29.png)
 
 If afterwards SSE is disabled at the bucket level, even then SSE for the objects created in the previously encrypted bucket will continue to remain encrypted.
 

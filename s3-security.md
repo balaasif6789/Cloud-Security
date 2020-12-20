@@ -26,6 +26,34 @@ If afterwards SSE is disabled at the bucket level, even then SSE for the objects
 
 ## MFA Delete  on bucket
 
+Activating MFA can only be done via CLI
+
+## Instructions:
+
+Login to the CLI:
+
+`aws configure`.
+
+View the accounts S3 buckets:
+
+```text
+aws s3 ls
+```
+
+List the Virtual MFA Devices:
+
+```text
+aws iam list-virtual-mfa-devices
+```
+
+Using the S3 Bucket name, the virtual mfa device ARN and your google authenticate app to generate the mfa code, enter this command:
+
+```text
+aws s3api put-bucket-versioning --bucket <yourbucket> --versioning-configuration Status=Enabled,MFADelete=Enabled --mfa "arn:aws:iam::<account number>:mfa/root-account-mfa-device <mfa code>"
+```
+
+Check your bucket has MFA Delete Enabled
+
 https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html\#MultiFactorAuthenticationDelete
 
 ## CloudTrail on S3

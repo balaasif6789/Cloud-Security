@@ -14,7 +14,7 @@ Making bucket public
 
 ![](.gitbook/assets/image%20%28114%29.png)
 
-Enable Server Side Encryption for S3
+## Enable Server Side Encryption for S3
 
 One SSE is enabled, only added objects  post the activation will be automatically encrypted, objects added before will have to be encrypted manually.
 

@@ -28,8 +28,6 @@ If afterwards SSE is disabled at the bucket level, even then SSE for the objects
 
 Activating MFA can only be done via CLI
 
-## Instructions:
-
 Login to the CLI:
 
 `aws configure`.

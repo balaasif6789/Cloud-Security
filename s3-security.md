@@ -1,19 +1,5 @@
 # S3 Security
 
-
-
-EC2
-
-è Firewall
-
-è Security groups
-
-è EC2 authentication \( Password based or SSH key based \)
-
-EBS
-
-è Volume encryption
-
 S3
 
 è Bucket Access  to public
